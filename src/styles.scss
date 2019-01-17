@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Volkhov|Neuton|Sawarabi+Mincho|Lora');
+.homestart {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+
+/* You can add global styles to this file, and also import other style files */
+.center-h3 {
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Volkhov', serif;
+ }
+
+ .body-font {
+   font-family: 'Sawarabi Mincho', serif;
+   font-size: 1em;
+ }
+
+ .homestart {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+}
+
+body {
+  background-color: rgba(141, 158, 198, 0.205) !important;
+  height: 100%;
+  width: 100%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: .90em;
+}
+
+
+
+.bg-img
+{
+    background-image: url('/assets/images/service_bg_2.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.home-bg-img
+{
+    background-image: url('assets/images/building.png');
+    background-position: center;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+

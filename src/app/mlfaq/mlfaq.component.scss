@@ -1,0 +1,94 @@
+.h2-tag {
+  font-size: 1.8em;
+  text-align: center;
+  font-family: 'Sawarabi Mincho', serif !important;
+  text-shadow: 0px 1px 1px rgb(253, 253, 253);
+color: black;
+}
+
+.h4-tag {
+  font-size: 1.4em;
+  font-family: 'Sawarabi Mincho', serif !important;
+text-align: center;
+
+text-shadow: 0px 1px 1px rgb(253, 253, 253);
+color: black;
+
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border-color: black;
+  padding-top: 2px;
+  box-shadow: 0px 0px 10px black;
+
+}
+
+.collapsed {
+  font-style: none;
+  color: rgb(0, 0, 0);
+  font-family: 'Lora', serif;
+  text-shadow:
+  0px 0px 1px rgb(165, 165, 165);
+}
+
+
+
+.btn-link {
+  text-decoration: none;
+}
+
+.card-header {
+  background-color: rgba(21, 255, 0, 0.26);
+  text-align: center !important;
+  color: white;
+}
+
+.body-content{
+  font-family: 'Lora', serif;
+}
+
+.btncolor {
+  color: rgb(0, 163, 0);
+}
+
+.btncolor:hover {
+font-style: none !important;
+text-decoration: none !important;
+color:rgb(255, 255, 255) !important;
+text-decoration: none;
+text-shadow:
+-1px -1px 1px rgba(0, 0, 0, 0.322),
+1px -1px 1px rgba(0, 0, 0, 0.322),
+-1px 1px 1px rgba(0, 0, 0, 0.322),
+1px 1px 1px rgba(0, 0, 0, 0.322);
+}
+
+
+.extra-pad {
+  padding-bottom: 150px;
+}
+
+.popit {
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.884);
+  box-shadow: 0px 0px 10px black;
+  border: 1px solid black;
+  margin-top: 0%;
+
+  vertical-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  /* For tablets: */
+
+  .body-content {
+    padding-top: 15px;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-bottom: 5%;
+    font-family: 'Lora', serif;
+  }
+
+}

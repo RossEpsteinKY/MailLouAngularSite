@@ -1,0 +1,102 @@
+li{
+  margin: 10px 0;
+}
+
+
+.body-content {
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+  padding-bottom: 5%;
+  font-family: 'Lora', serif;
+}
+
+.h2-tag {
+  font-size: 1.8em;
+  text-align: center;
+  font-family: 'Sawarabi Mincho', serif !important;
+  text-shadow: 0px 1px 1px rgb(253, 253, 253);
+color: black;
+}
+
+.h4-tag {
+  font-size: 1.4em;
+  font-family: 'Sawarabi Mincho', serif !important;
+text-align: center;
+
+text-shadow: 0px 1px 1px rgb(253, 253, 253);
+color: black;
+
+}
+
+.tiplist {
+  font-family: 'Lora', serif !important;
+  font-size: 1em;
+}
+
+.boxit {
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.884);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  border: 1px solid black;
+  margin-top: 0%;
+
+  vertical-align: center;
+}
+
+.margins {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.popit {
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.884);
+  box-shadow: 0px 0px 10px black;
+  border: 1px solid black;
+  margin-top: 0%;
+
+  vertical-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  /* For tablets: */
+  .boxit {
+
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.877);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border: 1px solid black;
+    margin-top: 0%;
+    width: 100% !important;
+    vertical-align: center;
+
+  }
+
+  .body-content {
+    padding-top: 15px;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-bottom: 5%;
+    font-family: 'Lora', serif;
+  }
+
+  .margins {
+    margin-left: 5px;
+    margin-right: 5px;
+
+
+  }
+
+  .tiplist li {
+    font-family: 'Lora', serif !important;
+    font-size: 1.2em;
+  }
+
+  li{
+    margin: 10px 0;
+  }
+
+
+}

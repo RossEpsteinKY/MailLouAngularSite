@@ -1,0 +1,89 @@
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+  padding-bottom: 5%;
+  font-family: 'Lora', serif;
+}
+
+.h2-tag {
+  font-size: 1.8em;
+  text-align: center;
+  font-family: 'Sawarabi Mincho', serif !important;
+}
+
+.pos {
+  position: relative;
+}
+.h4-tag {
+  font-size: 1.2em;
+  font-family: 'Sawarabi Mincho', serif !important;
+
+
+}
+
+.p-fonts {
+  font-size: 0.8em;
+}
+
+.service-bg-1 {
+display: block;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+box-shadow: 5px 5px 30px black;
+
+}
+
+.boxit {
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.712);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  border: 1px solid black;
+  margin-top: 0%;
+
+  vertical-align: center;
+}
+
+.margins {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  /* For tablets: */
+  .boxit {
+    position: relative;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.712);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border: 1px solid black;
+    margin-top: 0%;
+    width: 100%;
+    vertical-align: center;
+  }
+
+  .body-content {
+    padding-top: 15px;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-bottom: 5%;
+    font-family: 'Lora', serif;
+  }
+}
+
+.popit {
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.877);
+  box-shadow: 0px 0px 10px black;
+  border: 1px solid black;
+  margin-top: 0%;
+
+  vertical-align: center;
+}
+
