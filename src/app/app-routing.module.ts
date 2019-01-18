@@ -14,9 +14,14 @@ const routes: Routes = [{path: '', component: HomeComponent},
                         {path: 'mltips', component: MltipsComponent},
                         {path: 'mlcontact', component: MlcontactComponent},
                         {path: 'mlhelplinks', component: MlhelplinksComponent},
-                        {path: 'mlcardexample', component: MlcardexampleComponent}
+                        {path: 'mlcardexample', component: MlcardexampleComponent},
+                        {path: '**', component: HomeComponent}
+
+
 
 ];
+
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
